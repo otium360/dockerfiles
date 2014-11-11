@@ -1,4 +1,4 @@
-# otium360/express
+# otium360organization/express
 otium360 base Dockerfile for Express (NodeJs) HTTP server.
 
 
@@ -28,7 +28,7 @@ This image uses the `/express` directory as the root for your NodeJS/Express ser
 
 Sample `Dockerfile`:
 
-    FROM otium360/express
+    FROM otium360organization/express
 
     MAINTAINER Bálder Carraté <balder.carrate@otium360.com>
 

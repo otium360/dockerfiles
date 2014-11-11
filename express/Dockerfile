@@ -1,6 +1,6 @@
 #
-# otium360/express Dockerfile
-# https://github.com/otium360/express
+# otium360organization/express Dockerfile
+# https://github.com/otium360/dockerfiles
 #
 FROM dockerfile/nodejs
 
