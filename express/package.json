@@ -18,7 +18,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/otium360/express.git"
+    "url": "git://github.com/otium360/dockerfiles.git"
   },
   "readme": "ERROR: No README data found!"
 }
