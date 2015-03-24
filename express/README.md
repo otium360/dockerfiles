@@ -3,7 +3,7 @@ otium360 base Dockerfile for Express (NodeJs) HTTP server.
 
 
 ## Base Docker Image
-- [dockerfile/nodejs](https://github.com/dockerfile/nodejs)
+- [node](https://registry.hub.docker.com/_/node/)
 
 
 ## Usage

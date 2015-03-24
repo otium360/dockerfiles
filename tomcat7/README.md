@@ -3,4 +3,4 @@ otium360 base Dockerfile for Tomcat7.
 
 
 ## Base Docker Image
-- [otium360organization/java7](https://github.com/otium360/dockerfiles)
+- [java](https://registry.hub.docker.com/_/java/)

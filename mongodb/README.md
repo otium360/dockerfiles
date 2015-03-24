@@ -3,4 +3,4 @@ otium360 base Dockerfile for MongoDB.
 
 
 ## Base Docker Image
-- [dockerfile/mongodb](https://github.com/dockerfile/mongodb)
+- [mongo](https://registry.hub.docker.com/_/mongo/)
