@@ -2,7 +2,7 @@
 # otium360organization/express Dockerfile
 # https://github.com/otium360/dockerfiles
 #
-FROM dockerfile/nodejs
+FROM node:0.10
 
 MAINTAINER Bálder Carraté <balder.carrate@otium360.com>
 

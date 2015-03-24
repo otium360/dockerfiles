@@ -2,7 +2,7 @@
 # otium360organization/tomcat7 Dockerfile
 # https://github.com/otium360/dockerfiles
 #
-FROM otium360organization/java7
+FROM java:7
 
 MAINTAINER Bálder Carraté <balder.carrate@otium360.com>
 
