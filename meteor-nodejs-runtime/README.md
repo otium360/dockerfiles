@@ -34,7 +34,7 @@ Sample `Dockerfile`:
     FROM otium360organization/meteor-nodejs-runtime
     MAINTAINER Bálder Carraté <balder.carrate@otium360.com>
     ENV \
-      ROOT_URL http://my-app.meteor.server \
+      ROOT_URL=http://my-app.meteor.server \
       PORT=8080 \
       MONGO_URL=mongodb://my-app.mongo.server:27017/my-app
     EXPOSE $PORT
