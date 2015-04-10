@@ -6,9 +6,14 @@ FROM node:0.10
 
 MAINTAINER Bálder Carraté <balder.carrate@otium360.com>
 
-# Install NPM dependencies
+# Add Meteor bundled app server
 ONBUILD ADD bundle /meteor-nodejs-runtime
+
+# Set working directory
 ONBUILD WORKDIR /meteor-nodejs-runtime
+
+# Install NPM dependencies
 ONBUILD RUN (cd programs/server && npm install)
 
+# Default Command
 CMD ["node", "main.js"]
