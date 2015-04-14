@@ -3,11 +3,8 @@
   "version": "0.0.1",
   "description": "otium360 base Dockerfile for Express (NodeJs) HTTP server",
   "dependencies": {
-    "connect": "^3.2.0",
     "express": "^4.9.7",
     "serve-static": "^1.6.4"
-  },
-  "devDependencies": {
   },
   "engines": {
     "node": ">=0.10.0"

@@ -3,7 +3,7 @@ otium360 base Dockerfile for Express (NodeJs) HTTP server.
 
 
 ## Base Docker Image
-- [node](https://registry.hub.docker.com/_/node/)
+- [node:0.10](https://registry.hub.docker.com/_/node/)
 
 
 ## Usage
@@ -29,28 +29,23 @@ This image uses the `/express` directory as the root for your NodeJS/Express ser
 Sample `Dockerfile`:
 
     FROM otium360organization/express
-
     MAINTAINER Bálder Carraté <balder.carrate@otium360.com>
-
     ADD server.js /express/server.js
     ADD www       /express/www
 
 Sample `server.js`:
 
     'use strict';
-
-    var connect = require('connect');
+    var express = require('express');
     var serveStatic = require('serve-static');
-
-    var app = connect();
+    var app = express();
     app.use(serveStatic('www', {'index': ['index.html']}));
-    app.listen(8080);
-
-    console.log('MyApp is ready at http://localhost:8080');
+    app.listen(8080, function () {
+      console.log('MyApp is ready at http://localhost:8080');
+    });
 
 ### Building the image and running the container
 Sample execution:
 
     docker build -t my-app-express /path/to/your/Dockerfile
     docker run -d -p 8080:8080 --name my-app-express my-app-express
-
