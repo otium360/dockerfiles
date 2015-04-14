@@ -14,7 +14,6 @@ This image assumes that your application:
 
 The image will add to the container a file `/express/package.json` with the required NPM dependencies and install them locally to `/express` folder. NPM dependencies:
 
-- connect
 - express
 - serve-static
 
